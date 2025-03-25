@@ -2,7 +2,7 @@
 
 ## Sobre o Projeto
 O **newman-runner-assistant** é uma ferramenta interativa para automação de testes de API utilizando [Newman](https://www.npmjs.com/package/newman) (CLI do Postman). 
-Com ela, é possível selecionar coleções e ambientes (collections e environments) para executar testes, gerar relatórios HTML detalhados e visualizar os resultados diretamente no terminal.
+Com ela, é possível selecionar coleções e ambientes (collections e environments) para executar testes, gerar relatórios HTML detalhados ou visualizar os resultados diretamente no terminal.
 
 ## Tecnologias Utilizadas
 - **Node.js**: Ambiente de execução JavaScript.
@@ -49,7 +49,7 @@ Script principal que integra os módulos e utiliza o Inquirer.js para:
 ## Instalação
 1. **Clone o repositório:**
    ```bash
-   git clone https://github.com/seu-usuario/newman-runner-assistant.git
+   git clone https://github.com/rafavlf/newman-runner-assistant.git
    cd newman-runner-assistant
 
 # Uso
