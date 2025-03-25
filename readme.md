@@ -14,20 +14,12 @@ Com ela, é possível selecionar coleções e ambientes (collections e environme
 A estrutura do projeto está organizada em módulos, permitindo uma fácil manutenção e escalabilidade:
 
 newman-runner-assistant/
-│
-├── collections/                # Arquivos de coleções do Postman (.json)
-│
-├── environments/               # Arquivos de ambientes do Postman (.json)
-│
-├── services/
-│   └── newmanService.js        # Módulo para executar o comando Newman e gerenciar  │                                 o output
-│
-├── utils/
-│   └── fileUtils.js            # Módulo com funções utilitárias para leitura e   │                                manipulação arquivos
-│
-├── newman-runner.js           # Script principal
-│
-└── package.json               # Configuração e dependencias do projeto
+collections/               # Arquivos de coleções do Postman (.json)
+environments/              # Arquivos de ambientes do Postman (.json)
+services/ newmanService.js # Módulo para executar o comando Newman e gerenciar o output
+utils/ fileUtils.js        # Módulo com funções utilitárias para leitura e manipulação arquivos
+newman-runner.js           # Script principal
+ package.json              # Configuração e dependencias do projeto
 
 
 
