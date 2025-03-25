@@ -1,0 +1,12 @@
+{
+  "name": "newman-runner-assistant",
+  "version": "1.0.0",
+  "scripts": {
+    "start": "node newman-runner.js"
+  },
+  "dependencies": {
+    "inquirer": "^8.2.6",
+    "newman": "^6.2.1",
+    "newman-reporter-htmlextra": "^1.23.1"
+  }
+}
